@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sass/css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__logo-time">
+        <h1 class="nav__logo-time__logo"><a href="">news</a></h1>
+        <p class="nav__logo-time__time">Warsaw 5 C | 28/10/2023</p>
+      </div>
+      <svg class="icon-bookmark icon-bookmark--nav">
+        <use href="./img/icons.svg#icon-bookmark"></use>
+      </svg>
+      <div class="input-search-container">
+        <svg class="input-search-container__icon-search">
+          <use href="./img/icons.svg#icon-search"></use>
+        </svg>
+        <input
+          class="input-search-container__input"
+          type="text"
+          placeholder="Search for news"
+        />
+      </div>
+    </nav>
+
+    <section class="top-headlines section">
+      <div class="top-headlines__title-control">
+        <h2>Top headlines</h2>
+        <div class="carousel-control">
+          <button class="carousel-control__btn">L</button>
+          <button class="carousel-control__btn">P</button>
+        </div>
+      </div>
+      <div class="carousel">
+        <div class="carousel__image"></div>
+        <p class="carousel__author">10/26/2023 | Arthur Morgan | BBC NEWS</p>
+        <h3 class="carousel__title">
+          <a href="#">
+            Mike Johnson: Republicans got a Speaker elected. Now begins the hard
+            part
+          </a>
+        </h3>
+        <p class="carousel__description">
+          In the end, the longest House leadership conflict of modern times
+          ended the way wars sometimes do, with both sides losing the stomach to
+          keep fighting.
+        </p>
+      </div>
+    </section>
+
+    <section class="recent-news section">
+      <h2 class="section__title">Recent news</h2>
+      <div class="recent-news__sortby-container">
+        <button class="recent-news__sortby-container__btn">Newest</button>
+        <span>/</span>
+        <button class="recent-news__sortby-container__btn">Popular</button>
+      </div>
+      <article class="article">
+        <div class="article__img-container">
+          <img
+            src="https://ichef.bbci.co.uk/news/976/cpsprodpb/13D3D/production/_131531218_dome.jpg.webp"
+            alt=""
+            class="article__img-container__img"
+          />
+        </div>
+        <div class="article__content">
+          <p class="article__author">10/26/2023 | Arthur Morgan | BBC NEWS</p>
+          <h3 class="article__title">
+            <a href="#">
+              Mike Johnson: Republicans got a Speaker elected. Now begins the
+              hard part
+            </a>
+          </h3>
+          <p class="article__description">
+            In the end, the longest House leadership conflict of modern times
+            ended the way wars sometimes do, with both sides losing the stomach
+            to keep fighting.
+          </p>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>

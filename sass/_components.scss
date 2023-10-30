@@ -1,0 +1,33 @@
+.carousel-control {
+  padding: 1rem 0;
+  &__btn {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #333;
+    cursor: pointer;
+  }
+}
+
+.carousel {
+  &__image {
+    width: 100%;
+    height: 50vh;
+    background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/13D3D/production/_131531218_dome.jpg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__author {
+    margin: 1rem 0;
+    font-size: 0.8rem;
+  }
+  &__title {
+    margin: 1rem 0;
+  }
+  &__description {
+    margin: 1rem 0;
+  }
+}

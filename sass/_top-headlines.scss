@@ -1,0 +1,17 @@
+// Prenieść do ogólnych styli komponentów
+// Stworzyć zmienne dla wymiarów urządzeń lub zaimplemetować osobną funkcję sass
+.section {
+  padding: 1rem;
+
+  @media only screen and (min-width: 1024px) {
+    padding: 1rem 4rem;
+  }
+}
+
+.top-headlines {
+  &__title-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
